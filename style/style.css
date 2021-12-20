@@ -1,0 +1,41 @@
+.header{
+    
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 1.5rem 0;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.logo-logo{
+    margin-right: 1.5rem;
+}
+.nav-logo-img{
+
+}
+.menu{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+
+}
+.menu__link{
+    text-decoration: none;
+    color: #081D43;
+    padding: 0 1rem;
+}
+.header-link{
+    background-color: #0050c8;
+    text-decoration: none;
+    color: #fff;
+    padding: .6rem 1.6rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}

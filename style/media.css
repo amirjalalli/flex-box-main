@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: "TTNorms";
+}
+.container{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
